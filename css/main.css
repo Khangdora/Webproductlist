@@ -106,7 +106,7 @@ body {
 
 .container {
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 .product_barRight{
@@ -230,6 +230,7 @@ body {
 
 .product-price2 {
     color:grey;
+    font-weight: normal;
 }
 
 .product-info img {
@@ -269,4 +270,68 @@ body {
 
 .nav-pages .selected {
     background-color: #c2f5e4;
+}
+
+.footer {
+    background-color: #323842;
+    color: #ccc;
+    padding:80px 10%;
+}
+
+.footer, .footer-selection-group {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.footer-selection {
+    margin-right:50px;
+}
+
+.footer-selection p {
+    padding-top:20px;
+    cursor: pointer;
+}
+
+.copyright a {
+    text-decoration: none;
+    color:#ccc;
+}
+
+.media-social img {
+    margin-top:20px;
+    width:25px;
+}
+
+.media-social a {
+    margin-right: 10px;
+}
+
+.email-input {
+    padding:20px;
+    background: transparent;
+    border: none;
+    color: #ccc;
+    width: 200px;
+}
+
+.promotions {
+    margin:10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.promotions i {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.subscribe {
+    background: rgb(77, 181, 77);
+    border:none;
+    color:white;
+    padding:20px;
+    cursor: pointer;
+    font-size:20px;
+    width: 150px;
 }
