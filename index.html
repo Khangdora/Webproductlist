@@ -8,7 +8,7 @@
     <title>Product Listing</title>
 
     <link rel="stylesheet" href="css/main.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -32,7 +32,7 @@
                 <form action="" method="POST">
                     <div class="search-box">
                         <i class="fa fa-search icon-search"></i>
-                        <input class="search" type="text" id="fname" placeholder="Nhập tên sản phẩm.." name="fname">
+                        <input class="search" type="text" id="fname" placeholder="Nhập tên sản phẩm..." name="fname">
                     </div>
                 </form>
                 <img src="images/cart.png" style="margin-right: 40px;" />
@@ -42,7 +42,40 @@
 
     </header>
 
-    <div class="container"><img src="images/slider.png" width="100%"></div>
+    <div class="banner">
+        <div><img alt="banner" src="images/slider.png"/></div>
+        <div class="banner_text">
+            <h1 class="txt_first">Gift for your skin</h1>
+            <h3 class="txt_second">Aliquip fugiat ipsum nostrud ex et eu incididunt quis minim dolore excepteur volptate</h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="product_bar">
+            <div class="product_barLeft">
+                <a href="product/" class="selected">All Products</a>
+                <a href="product/face">Face</a>
+                <a href="product/body">Body</a>
+            </div>
+            <div class="product_barRight">
+                <form action="" method="POST">
+                    <div class="search-box">
+                        <i class="fa fa-search icon-search"></i>
+                        <input class="search" type="text" id="fname" placeholder="Nhập tên sản phẩm..." name="fname">
+                    </div>
+                </form>
+                <div class="product_dropdown">
+                    <button class="dropbtn">Sắp xếp <i class="fa fa-chevron-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#">Theo A-Z</a>
+                        <a href="#">Theo Z-A</a>
+                        <a href="#">Theo giá</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 </body>
 
